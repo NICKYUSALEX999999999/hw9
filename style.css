@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('https://klike.net/uploads/posts/2020-02/1580546936_2.jpg');
+    background-size: cover;
+    
+}
+.container{
+    margin-top: 100px;
+}
+
+
+h1{
+    text-align: center;
+    color: rgb(63, 58, 58);
+    transition: 1s;
+}
+h1:hover{
+    transition: 1s;
+    color: rgb(18, 80, 80);
+
+}
+
+div{
+    text-align: center;
+    border-radius: 30px;
+    background-color: ghostwhite;
+}
+
+.submit{
+    text-align: center;
+    background-color: aqua;
+    color: rgb(172, 12, 12);
+    font-size: 20px;
+    border:none;
+    border-radius: 50px;
+    transition: 2s;
+}
+
+
+.submit:hover{
+    transition: 2s;
+    color: black;
+    background-color: blue;
+}
